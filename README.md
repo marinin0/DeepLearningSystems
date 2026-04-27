@@ -19,11 +19,11 @@ git clone https://github.com/marinin0/DeepLearningSystems.git
 ```
 cd DeepLearningSystems
 ```
-5) Собери Docker-образ.
+5) Собрать Docker-образ.
 ```
 docker build -t audio-project .
 ```
-6) Запусти обработку и тесты.
+6) Запустить обработку и тесты.
 ```
 docker run --rm audio-project
 ```
